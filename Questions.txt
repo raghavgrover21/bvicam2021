@@ -1,0 +1,3 @@
+Create a linked list(singly/doubly)
+Create a queue(normal/circular)
+Create a stack
