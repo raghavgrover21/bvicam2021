@@ -1,0 +1,18 @@
+Step 1. Create your github account.
+Step 2. Login into your github account and create new repo name of the repo  = "Data Structure". 
+Step 3. Make sure you are added as a collaborator by the CR.
+
+*Make sure git is installed locally before trying the below steps and origin master has been set*
+Step 4. Create a new_folder or into an existing folder type this in (CMD/Terminal) =
+    
+    4.1-> git clone https://github.com/raghavgrover21/bvicam2021.git
+     *your problem branch = the set of questions you are working on. In your case it is Data_Structure*
+    -> git branch -b checkout "your_problem_branch" (This command will create a branch locally once you push code/file/anything, only then it would be created on github.)
+    
+    4.2-> Now create your own files for programs that you are going to write.
+    -> Once your program is complete, do the following
+    -> Open CMD where your file is kept
+    -> type - git add "file_name.js"  with extention.
+    *Git commit -m "your message"* -  this command with add a checkpoint to your code to which you may revert to if you want. 
+    -> type - git commit -m "What ever your program does within a single line".
+    -> git push origin "your_problem_branch"
